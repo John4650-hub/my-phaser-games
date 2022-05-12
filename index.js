@@ -45,16 +45,16 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-    this.load.image('sky', 'assets/bg.png');
-    this.load.image('leftButton', 'assets/left.png');
-    this.load.image('rightButton', 'assets/right.png');
-    this.load.image('upButton', 'assets/up.png');
-    this.load.image('downButton', 'assets/down.png');
-    this.load.image('playButton','assets/shadedDark16.png')
-    this.load.image('ground', 'assets/platform.png');
-    this.load.image('star', 'assets/star.png');
-    this.load.image('beetle', 'assets/beetle.png');
-    this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 32, frameHeight: 48 });
+    this.load.image('sky', './assets/bg.png');
+    this.load.image('leftButton', './assets/left.png');
+    this.load.image('rightButton', './assets/right.png');
+    this.load.image('upButton', './assets/up.png');
+    this.load.image('downButton', './assets/down.png');
+    this.load.image('playButton','./assets/shadedDark16.png')
+    this.load.image('ground', './assets/platform.png');
+    this.load.image('star', './assets/star.png');
+    this.load.image('beetle', './assets/beetle.png');
+    this.load.spritesheet('dude', './assets/dude.png', { frameWidth: 32, frameHeight: 48 });
 }
 
 function create ()
